@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    margin:auto;
+    padding:20px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.images{
+    justify-content: center;
+    max-width: 220px;
+    align-items: center;
+}
+
+.para{
+    padding: 10px;
+    color: rosybrown;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,html{
+    height: 100%;
+    background-image: url(csk.png);
+    background-position: center;
+}
+
+.Home{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.Home:hover{
+    background-color: blue;
+}
